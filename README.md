@@ -29,7 +29,7 @@ Where:
 ```
 
 # Example
-`python3 HashIt.py --query="123445" --encode=base64 --method=md5`        
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&width=500&lines=Result+-%3E++JbjU9iKHx7PJYhPrw5j%2BcDhEBJ0iVJh%2FaROHkLf%2BMh4%3D)
+`python3 HashIt.py --query="12345" --encode=base64 --method=md5`        
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=F7F7F7&width=500&lines=WZRHGrsBESr8wYFZ9sx0tPURuZgG2lmzyvWpwXPKz8U%3D)
 
 > Thanks <3
