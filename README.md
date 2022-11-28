@@ -13,7 +13,8 @@ git clone https://github.com/MemeSec/HashIt && cd HashIt && chmod +x HashIt.py
 pip install requests
 ```
 + usage
-```python HashIt.py
+```bash
+python HashIt.py
 ```
 
 # Usage
