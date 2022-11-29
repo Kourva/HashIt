@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ## Hash your text with this tool
-## GITHUB: https://github.com/MemeSec/HashIt
+## GITHUB: https://github.com/Izolabela/HashIt
 
 # Imports
 import threading
