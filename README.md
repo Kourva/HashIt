@@ -6,7 +6,7 @@ Hash your text with this tool (Works with API)
 # Install
 + clone
 ```bash
-git clone https://github.com/Izolabela/HashIt && cd HashIt && chmod +x HashIt.py
+git clone https://github.com/Kourva/HashIt && cd HashIt && chmod +x HashIt.py
 ```
 + requirements
 ```bash
