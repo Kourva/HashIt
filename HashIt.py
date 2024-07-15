@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ## Hash your text with this tool
-## GITHUB: https://github.com/Kourva/HashIt
+## GITHUB: https://github.com/Kourva/kozyol
 
 # Imports
 import threading
@@ -11,7 +11,7 @@ import sys
 
 # Args
 if len(sys.argv) < 2:
-    print("\033[1;33mUsage: \033[1;37mHashIt.py \033[1;33m--query=\033[1;37mquery \033[1;33m--method=\033[1;37mmethod \033[1;33m--encode=\033[1;37mencoding")
+    print("\033[1;33mUsage: \033[1;37mkozyol.py \033[1;33m--query=\033[1;37mquery \033[1;33m--method=\033[1;37mmethod \033[1;33m--encode=\033[1;37mencoding")
     print("\033[1;33mWhere:")
     print("\033[1;37m  --query  :\033[1;32m \"your text\"")
     print("\033[1;37m  --method :\033[1;32m md5 | sha256 | sha512")
@@ -44,7 +44,7 @@ def searching():
             break
 
 # Hashing progress
-def HashIt(query, method, encode):
+def kozyol(query, method, encode):
     response = requests.get(f"https://hashable-api.herokuapp.com/hash?str={query}&method={method}&encoding={encode}")
     return response.text
 
@@ -55,7 +55,7 @@ def main():
     print(f"\033[1;37mmethod -> \033[1;32m{method}\033[1;37m  |  encoding -> \033[1;32m{encode}")
     thread = threading.Thread(target= searching)
     thread.start()
-    Result = HashIt(query, method, encode)
+    Result = kozyol(query, method, encode)
     Progress = False
     time.sleep(2)
     print(f"\033[1;37mResult ->  \033[1;32m{Result}")
